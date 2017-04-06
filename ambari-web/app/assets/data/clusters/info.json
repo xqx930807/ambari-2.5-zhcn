@@ -1,0 +1,11 @@
+{
+  "items" : [
+    {
+      "Clusters" : {
+        "cluster_name" : "MyCluster",
+        "provisioning_state" : "INSTALLED",
+        "version" : "HDP-2.6.0"
+      }
+    }
+  ]
+}
