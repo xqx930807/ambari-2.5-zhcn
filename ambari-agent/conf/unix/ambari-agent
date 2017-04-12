@@ -18,7 +18,7 @@
 # processname: ambari-agent
 
 # /etc/init.d/ambari-agent
-set -u # fail on unset variables
+#set -u # fail on unset variables
 VERSION="${ambariVersion}"
 HASH="${buildNumber}"
 

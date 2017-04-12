@@ -29,7 +29,7 @@
 ### END INIT INFO
 
 # /etc/init.d/ambari-server
-set -u # fail on unset variables
+#set -u # fail on unset variables
 VERSION="${ambariFullVersion}"
 HASH="${buildNumber}"
 
