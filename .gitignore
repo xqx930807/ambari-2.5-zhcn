@@ -26,3 +26,4 @@ rebel.xml
 rebel-remote.xml
 out
 createDDL.jdbc
+*.versionsBackup
