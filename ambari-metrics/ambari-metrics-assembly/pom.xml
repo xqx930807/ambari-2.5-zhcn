@@ -33,7 +33,7 @@
   <description>Ambari Metrics Assembly</description>
 
   <properties>
-    <hadoop.tar>http://private-repo1.hortonworks.com/ambari/hadoop-2.7.1.2.3.4.0-3347.tar.gz</hadoop.tar>
+    <hadoop.tar>http://private-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.3.4.0-3347/tars/hadoop-2.7.1.2.3.4.0-3347.tar.gz</hadoop.tar>
     <collector.dir>${project.basedir}/../ambari-metrics-timelineservice</collector.dir>
     <monitor.dir>${project.basedir}/../ambari-metrics-host-monitoring</monitor.dir>
     <grafana.dir>${project.basedir}/../ambari-metrics-grafana</grafana.dir>

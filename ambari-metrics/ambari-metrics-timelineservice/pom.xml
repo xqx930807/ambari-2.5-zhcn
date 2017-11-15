@@ -33,8 +33,8 @@
   <properties>
     <!-- Needed for generating FindBugs warnings using parent pom -->
     <!--<yarn.basedir>${project.parent.parent.basedir}</yarn.basedir>-->
-    <hbase.tar>http://private-repo1.hortonworks.com/ambari/hbase-1.1.2.2.3.4.0-3347.tar.gz</hbase.tar>
-    <phoenix.tar>http://private-repo1.hortonworks.com/ambari/phoenix-4.4.0.2.3.4.0-3347.tar.gz</phoenix.tar>
+    <hbase.tar>http://private-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.3.4.0-3347/tars/hbase-1.1.2.2.3.4.0-3347.tar.gz</hbase.tar>
+    <phoenix.tar>http://private-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.3.4.0-3347/tars/phoenix-4.4.0.2.3.4.0-3347.tar.gz</phoenix.tar>
 
     <protobuf.version>2.5.0</protobuf.version>
     <hadoop.version>2.7.1.2.3.4.0-3347</hadoop.version>
