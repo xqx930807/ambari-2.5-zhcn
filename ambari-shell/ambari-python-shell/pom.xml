@@ -19,14 +19,14 @@
   <parent>
     <groupId>org.apache.ambari</groupId>
     <artifactId>ambari-shell</artifactId>
-    <version>2.5.0.3.7</version>
+    <version>2.5.0.0.0</version>
     <relativePath>../../ambari-shell</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.ambari</groupId>
   <artifactId>ambari-python-shell</artifactId>
   <packaging>pom</packaging>
-  <version>2.5.0.3.7</version>
+  <version>2.5.0.0.0</version>
   <name>Ambari Python Shell</name>
   <description>Ambari Python Shell</description>
   <properties>
@@ -37,7 +37,7 @@
     <package.log.dir>/var/log/ambari-shell</package.log.dir>
     <package.pid.dir>/var/run/ambari-shell</package.pid.dir>
     <skipTests>false</skipTests>
-    <install.dir>/usr/lib/python2.6/site-packages/ambari_shell</install.dir>
+    <install.dir>/usr/lib/python2.7/site-packages/ambari_shell</install.dir>
     <lib.dir>/usr/lib/ambari-shell/lib</lib.dir>
     <python.ver>python &gt;= 2.6</python.ver>
     <deb.python.ver>python (&gt;= 2.6)</deb.python.ver>

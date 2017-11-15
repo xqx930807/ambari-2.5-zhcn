@@ -17,16 +17,16 @@
 
 # Because Ambari rpm unpacks modules here on all systems
 PARAM="$@"
-export PYTHONPATH=/usr/lib/python2.6/site-packages:$PYTHONPATH
-SHELL_SCRIPT=/usr/lib/python2.6/site-packages/ambari_shell/ambari_shell.py
+export PYTHONPATH=/usr/lib/python2.7/site-packages:$PYTHONPATH
+SHELL_SCRIPT=/usr/lib/python2.7/site-packages/ambari_shell/ambari_shell.py
 OK=1
 NOTOK=0
 if [ -a /usr/bin/python2.7 ] && [ -z "$PYTHON" ]; then
   PYTHON=/usr/bin/python2.7
 fi
 
-if [ -a /usr/bin/python2.6 ] && [ -z "$PYTHON" ]; then
-  PYTHON=/usr/bin/python2.6
+if [ -a /usr/bin/python2.7 ] && [ -z "$PYTHON" ]; then
+  PYTHON=/usr/bin/python2.7
 fi
 
 if [ "x$PYTHON" == "x" ]; then

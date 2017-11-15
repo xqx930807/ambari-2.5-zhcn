@@ -18,7 +18,7 @@
 MONITOR_CONF_DIR=/etc/ambari-metrics-monitor/conf/
 METRIC_MONITOR=ambari-metrics-monitor
 
-RESOURCE_MONITORING_DIR=/usr/lib/python2.6/site-packages/resource_monitoring
+RESOURCE_MONITORING_DIR=/usr/lib/python2.7/site-packages/resource_monitoring
 METRIC_MONITOR_PY_SCRIPT=${RESOURCE_MONITORING_DIR}/main.py
 
 PIDFILE=/var/run/ambari-metrics-monitor/ambari-metrics-monitor.pid
@@ -33,8 +33,8 @@ if [ -a /usr/bin/python2.7 ] && [ -z "${PYTHON}" ]; then
   PYTHON=/usr/bin/python2.7
 fi
 
-if [ -a /usr/bin/python2.6 ] && [ -z "${PYTHON}" ]; then
-  PYTHON=/usr/bin/python2.6
+if [ -a /usr/bin/python2.7 ] && [ -z "${PYTHON}" ]; then
+  PYTHON=/usr/bin/python2.7
 fi
 
 if [ "x$PYTHON" == "x" ]; then
