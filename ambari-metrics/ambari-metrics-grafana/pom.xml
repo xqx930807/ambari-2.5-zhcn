@@ -31,7 +31,7 @@
   <version>2.1.0.0.0</version>
   <description>Ambari Metrics Grafana</description>
   <properties>
-	<grafana.tar>http://private-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.3.4.0-3347/tars/grafana-2.6.0.linux-x64.tar.gz</grafana.tar>
+	<grafana.tar>https://grafanarel.s3.amazonaws.com/builds/grafana-2.6.0.linux-x64.tar.gz</grafana.tar>
   </properties>
   <build>
     <plugins>
