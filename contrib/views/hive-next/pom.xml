@@ -233,7 +233,7 @@
   <properties>
     <ambari.dir>${project.parent.parent.parent.basedir}</ambari.dir>
     <hive-version>2.1.0</hive-version>
-    <ambari.version>2.5.0.0.0</ambari.version>
+    <ambari.version>2.5.0.3.7</ambari.version>
   </properties>
   <build>
     <plugins>

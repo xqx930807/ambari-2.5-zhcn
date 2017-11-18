@@ -149,7 +149,7 @@
 
   <properties>
     <ambari.dir>${project.parent.parent.parent.basedir}</ambari.dir>
-    <ambari.version>2.5.0.0.0</ambari.version>
+    <ambari.version>2.5.0.3.7</ambari.version>
     <ui.directory>${basedir}/src/main/resources/ui/pig-web</ui.directory>
   </properties>
   <build>
