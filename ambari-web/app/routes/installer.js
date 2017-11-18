@@ -36,7 +36,7 @@ module.exports = Em.Route.extend(App.RouterRedirections, {
           App.router.get('installerController').checkServerClientVersion().done(function () {
 
             var name = 'Cluster Install Wizard';
-            $('title').text('Haiyi - ' + name);
+            $('title').text('HStack - ' + name);
             $('#main').addClass('install-wizard-content');
 
             App.router.get('mainViewsController').loadAmbariViews();

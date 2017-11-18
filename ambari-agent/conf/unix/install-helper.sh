@@ -18,17 +18,17 @@
 #                      AGENT INSTALL HELPER                      #
 ##################################################################
 
-COMMON_DIR="/usr/lib/python2.7/site-packages/ambari_commons"
-RESOURCE_MANAGEMENT_DIR="/usr/lib/python2.7/site-packages/resource_management"
-JINJA_DIR="/usr/lib/python2.7/site-packages/ambari_jinja2"
-SIMPLEJSON_DIR="/usr/lib/python2.7/site-packages/ambari_simplejson"
-OLD_COMMON_DIR="/usr/lib/python2.7/site-packages/common_functions"
+COMMON_DIR="/usr/lib/python2.7/dist-packages/ambari_commons"
+RESOURCE_MANAGEMENT_DIR="/usr/lib/python2.7/dist-packages/resource_management"
+JINJA_DIR="/usr/lib/python2.7/dist-packages/ambari_jinja2"
+SIMPLEJSON_DIR="/usr/lib/python2.7/dist-packages/ambari_simplejson"
+OLD_COMMON_DIR="/usr/lib/python2.7/dist-packages/common_functions"
 INSTALL_HELPER_SERVER="/var/lib/ambari-server/install-helper.sh"
 COMMON_DIR_AGENT="/usr/lib/ambari-agent/lib/ambari_commons"
 RESOURCE_MANAGEMENT_DIR_AGENT="/usr/lib/ambari-agent/lib/resource_management"
 JINJA_AGENT_DIR="/usr/lib/ambari-agent/lib/ambari_jinja2"
 SIMPLEJSON_AGENT_DIR="/usr/lib/ambari-agent/lib/ambari_simplejson"
-AMBARI_AGENT="/usr/lib/python2.7/site-packages/ambari_agent"
+AMBARI_AGENT="/usr/lib/python2.7/dist-packages/ambari_agent"
 PYTHON_WRAPER_TARGET="/usr/bin/ambari-python-wrap"
 AMBARI_AGENT_VAR="/var/lib/ambari-agent"
 

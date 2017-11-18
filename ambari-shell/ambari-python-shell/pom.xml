@@ -37,7 +37,7 @@
     <package.log.dir>/var/log/ambari-shell</package.log.dir>
     <package.pid.dir>/var/run/ambari-shell</package.pid.dir>
     <skipTests>false</skipTests>
-    <install.dir>/usr/lib/python2.7/site-packages/ambari_shell</install.dir>
+    <install.dir>/usr/lib/python2.7/dist-packages/ambari_shell</install.dir>
     <lib.dir>/usr/lib/ambari-shell/lib</lib.dir>
     <python.ver>python &gt;= 2.6</python.ver>
     <deb.python.ver>python (&gt;= 2.6)</deb.python.ver>

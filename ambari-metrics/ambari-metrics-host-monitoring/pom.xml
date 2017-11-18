@@ -31,7 +31,7 @@
   <name>Ambari Metrics Monitor</name>
   <properties>
     <resmonitor.install.dir>
-      /usr/lib/python2.7/site-packages/resource_monitoring
+      /usr/lib/python2.7/dist-packages/resource_monitoring
     </resmonitor.install.dir>
     <final.name>${project.artifactId}-${project.version}</final.name>
   </properties>

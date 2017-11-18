@@ -18,9 +18,9 @@
 
 Em.I18n.translations = {
 
-  'app.name':'大数据集成平台',
-  'app.name.subtitle':'海颐大数据集成平台 - {0}',
-  'app.name.subtitle.experimental':'海颐大数据集成平台',
+  'app.name':'云计算大数据集成平台',
+  'app.name.subtitle':'HStack云计算大数据集成平台 - {0}',
+  'app.name.subtitle.experimental':'HStack云计算大数据集成平台',
   'app.reloadPopup.link': '重新加载页面',
   'app.reloadPopup.text': '尝试连接服务器...',
   'app.reloadPopup.noClusterName.text': '获取集群名称失败,重试...',
@@ -65,8 +65,8 @@ Em.I18n.translations = {
   'app.aboutAmbari.version': '版本号',
   'app.aboutAmbari.licensed': '按照 Apache License，Version 2.0 颁发许可证',//Licensed under the Apache License, Version
 
-  'app.aboutAmbari.ambariVersion': '2.6.0',
-  'app.aboutAmbari.companyInfo': '烟台海颐软件股份有限公司',
+  'app.aboutAmbari.ambariVersion': '2.5.0',
+  'app.aboutAmbari.companyInfo': '西安电子科技大学',
 
   'apply':'应用',
   'and':'和',
@@ -749,7 +749,7 @@ Em.I18n.translations = {
   'installer.step3.hostWarningsPopup.checks': 'Host Checks found',
   'installer.step3.hostWarningsPopup.notice':'After manually resolving the issues, click <b>Rerun Checks</b>.'+
     '<br>To manually resolve issues on <b>each host</b> run the HostCleanup script (Python 2.6 or greater is required):'+
-    '<br><div class="code-snippet">python /usr/lib/python2.7/site-packages/ambari_agent/HostCleanup.py --silent --skip=users</div>' +
+    '<br><div class="code-snippet">python /usr/lib/python2.7/dist-packages/ambari_agent/HostCleanup.py --silent --skip=users</div>' +
     '<div class="alert alert-warn"><b>Note</b>: Clean up of Firewall and Transparent Huge Page issues are not supported by the HostCleanup script.</div>' +
     '<div class="alert alert-warn"><b>Note</b>: To clean up in interactive mode, remove <b>--silent</b> option. To clean up all resources, including <i>users</i>, remove <b>--skip=users</b> option. Use <b>--help</b> for a list of available options.</div>',
   'installer.step3.hostWarningsPopup.summary':'{0} on {1}',

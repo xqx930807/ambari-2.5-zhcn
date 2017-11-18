@@ -19,12 +19,12 @@
 ROOT_DIR_PATH="${RPM_INSTALL_PREFIX}"
 ROOT=`echo "${RPM_INSTALL_PREFIX}" | sed 's|/$||g'` # Customized folder, which ambari-server files are installed into ('/' or '' are default).
 
-COMMON_DIR="${ROOT}/usr/lib/python2.7/site-packages/ambari_commons"
-RESOURCE_MANAGEMENT_DIR="${ROOT}/usr/lib/python2.7/site-packages/resource_management"
-JINJA_DIR="${ROOT}/usr/lib/python2.7/site-packages/ambari_jinja2"
-SIMPLEJSON_DIR="${ROOT}/usr/lib/python2.7/site-packages/ambari_simplejson"
-OLD_COMMON_DIR="${ROOT}/usr/lib/python2.7/site-packages/common_functions"
-AMBARI_SERVER="${ROOT}/usr/lib/python2.7/site-packages/ambari_server"
+COMMON_DIR="${ROOT}/usr/lib/python2.7/dist-packages/ambari_commons"
+RESOURCE_MANAGEMENT_DIR="${ROOT}/usr/lib/python2.7/dist-packages/resource_management"
+JINJA_DIR="${ROOT}/usr/lib/python2.7/dist-packages/ambari_jinja2"
+SIMPLEJSON_DIR="${ROOT}/usr/lib/python2.7/dist-packages/ambari_simplejson"
+OLD_COMMON_DIR="${ROOT}/usr/lib/python2.7/dist-packages/common_functions"
+AMBARI_SERVER="${ROOT}/usr/lib/python2.7/dist-packages/ambari_server"
 INSTALL_HELPER_AGENT="/var/lib/ambari-agent/install-helper.sh"
 CA_CONFIG="${ROOT}/var/lib/ambari-server/keys/ca.config"
 COMMON_DIR_SERVER="${ROOT}/usr/lib/ambari-server/lib/ambari_commons"
@@ -127,7 +127,7 @@ do_install(){
   fi
 
   if [ -f "$AMBARI_ENV_RPMSAVE" ] ; then
-    PYTHON_PATH_LINE='export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/site-packages'
+    PYTHON_PATH_LINE='export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages'
     grep "^$PYTHON_PATH_LINE\$" "$AMBARI_ENV_RPMSAVE" > /dev/null
     if [ $? -ne 0 ] ; then
       echo -e "\n$PYTHON_PATH_LINE" >> $AMBARI_ENV_RPMSAVE

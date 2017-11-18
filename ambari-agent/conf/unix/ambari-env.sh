@@ -17,7 +17,7 @@
 # given through environment variable
 AMBARI_PASSPHRASE="DEV"
 export PATH=$PATH:/var/lib/ambari-agent
-export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/site-packages
+export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages
 
 # customize python binary for ambari
 # export PYTHON=/usr/bin/python2

@@ -56,7 +56,7 @@ You can install the most recent Jinja2 version using `easy_install`_ or `pip`_::
     easy_install Jinja2
     pip install Jinja2
 
-This will install a Jinja2 egg in your Python installation's site-packages
+This will install a Jinja2 egg in your Python installation's dist-packages
 directory.
 
 (If you are installing from the windows command line omit the `sudo` and make
@@ -72,7 +72,7 @@ From the tarball release
 Note that you either have to have setuptools or `distribute`_ installed,
 the latter is preferred.
 
-This will install Jinja2 into your Python installation's site-packages directory.
+This will install Jinja2 into your Python installation's dist-packages directory.
 
 .. _distribute: http://pypi.python.org/pypi/distribute
 
@@ -82,7 +82,7 @@ Installing the development version
 1.  Install `git`_
 2.  ``git clone git://github.com/mitsuhiko/ambari_jinja2.git``
 3.  ``cd ambari_jinja2``
-4.  ``ln -s ambari_jinja2 /usr/lib/python2.X/site-packages``
+4.  ``ln -s ambari_jinja2 /usr/lib/python2.X/dist-packages``
 
 As an alternative to steps 4 you can also do ``python setup.py develop``
 which will install the package via distribute in development mode.  This also

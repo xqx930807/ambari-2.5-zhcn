@@ -95,8 +95,8 @@ if "%1" == "uninstall" (
     for %%A in ("%PYTHON%") do (
         set folder=%%~dpA
     )
-    for /F "delims=" %%i in ('dir /b %folder%\Lib\site-packages\*psutil*') do (
-        rmdir /S /Q %folder%\Lib\site-packages\%%i
+    for /F "delims=" %%i in ('dir /b %folder%\Lib\dist-packages\*psutil*') do (
+        rmdir /S /Q %folder%\Lib\dist-packages\%%i
     )
     goto :eof
 )
