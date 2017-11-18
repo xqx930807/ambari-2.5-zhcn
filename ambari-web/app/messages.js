@@ -18,9 +18,9 @@
 
 Em.I18n.translations = {
 
-  'app.name':'云计算大数据集成平台',
-  'app.name.subtitle':'HStack云计算大数据集成平台 - {0}',
-  'app.name.subtitle.experimental':'HStack云计算大数据集成平台',
+  'app.name':'云数据集成平台',
+  'app.name.subtitle':'HStack云数据集成平台 - {0}',
+  'app.name.subtitle.experimental':'HStack云数据集成平台',
   'app.reloadPopup.link': '重新加载页面',
   'app.reloadPopup.text': '尝试连接服务器...',
   'app.reloadPopup.noClusterName.text': '获取集群名称失败,重试...',
